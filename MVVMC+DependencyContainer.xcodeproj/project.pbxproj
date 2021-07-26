@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8B06DD60C586225613136F /* Pods_MVVMC_DependencyContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEC692EB23E399D4F78D665 /* Pods_MVVMC_DependencyContainer.framework */; };
 		3623CC1326AD825500484803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC1226AD825500484803 /* AppDelegate.swift */; };
-		3623CC1526AD825500484803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC1426AD825500484803 /* SceneDelegate.swift */; };
-		3623CC1726AD825500484803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC1626AD825500484803 /* ViewController.swift */; };
-		3623CC1A26AD825500484803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3623CC1826AD825500484803 /* Main.storyboard */; };
 		3623CC1C26AD825A00484803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3623CC1B26AD825A00484803 /* Assets.xcassets */; };
 		3623CC1F26AD825A00484803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3623CC1D26AD825A00484803 /* LaunchScreen.storyboard */; };
+		3623CC2926AD82BF00484803 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC2826AD82BF00484803 /* Coordinator.swift */; };
+		3623CC2F26AD844B00484803 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC2E26AD844B00484803 /* AppCoordinator.swift */; };
+		3623CC3C26AD871700484803 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC3B26AD871700484803 /* LoginCoordinator.swift */; };
+		3623CC4026AD895300484803 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC3F26AD895300484803 /* LoginViewController.swift */; };
+		3623CC4326AD89ED00484803 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC4226AD89ED00484803 /* DependencyContainer.swift */; };
+		3623CC4726AD8C3400484803 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC4626AD8C3400484803 /* LoginService.swift */; };
+		3623CC4E26AD8D0200484803 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC4D26AD8D0200484803 /* LoginViewModel.swift */; };
+		3623CC5226AE46B000484803 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623CC5126AE46B000484803 /* Container.swift */; };
+		36748FEC26AE47EA00C0DE3B /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36748FEB26AE47EA00C0DE3B /* VerificationViewController.swift */; };
+		36748FF026AE4D1900C0DE3B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36748FEF26AE4D1900C0DE3B /* EndPoint.swift */; };
+		36748FF926AE4E9700C0DE3B /* LoginEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36748FF826AE4E9700C0DE3B /* LoginEndPoint.swift */; };
+		36748FFD26AE501900C0DE3B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36748FFC26AE501900C0DE3B /* BaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3623CC0F26AD825500484803 /* MVVMC+DependencyContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVMC+DependencyContainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3623CC1226AD825500484803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3623CC1426AD825500484803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3623CC1626AD825500484803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3623CC1926AD825500484803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3623CC1B26AD825A00484803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3623CC1E26AD825A00484803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3623CC2026AD825A00484803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3623CC2826AD82BF00484803 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3623CC2E26AD844B00484803 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3623CC3B26AD871700484803 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		3623CC3F26AD895300484803 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3623CC4226AD89ED00484803 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		3623CC4626AD8C3400484803 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		3623CC4D26AD8D0200484803 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3623CC5126AE46B000484803 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		36748FEB26AE47EA00C0DE3B /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		36748FEF26AE4D1900C0DE3B /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		36748FF826AE4E9700C0DE3B /* LoginEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEndPoint.swift; sourceTree = "<group>"; };
+		36748FFC26AE501900C0DE3B /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		7DEC692EB23E399D4F78D665 /* Pods_MVVMC_DependencyContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMC_DependencyContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1586EB964F1E2764C7C4B43 /* Pods-MVVMC+DependencyContainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMC+DependencyContainer.debug.xcconfig"; path = "Target Support Files/Pods-MVVMC+DependencyContainer/Pods-MVVMC+DependencyContainer.debug.xcconfig"; sourceTree = "<group>"; };
+		AB13E115391DAB3D7E064663 /* Pods-MVVMC+DependencyContainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMC+DependencyContainer.release.xcconfig"; path = "Target Support Files/Pods-MVVMC+DependencyContainer/Pods-MVVMC+DependencyContainer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8B06DD60C586225613136F /* Pods_MVVMC_DependencyContainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB26D94CB511F3DE094746A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC692EB23E399D4F78D665 /* Pods_MVVMC_DependencyContainer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3623CC0626AD825500484803 = {
 			isa = PBXGroup;
 			children = (
 				3623CC1126AD825500484803 /* MVVMC+DependencyContainer */,
 				3623CC1026AD825500484803 /* Products */,
+				C80BBDA4774B75C1DE280549 /* Pods */,
+				0FB26D94CB511F3DE094746A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +90,80 @@
 			isa = PBXGroup;
 			children = (
 				3623CC1226AD825500484803 /* AppDelegate.swift */,
-				3623CC1426AD825500484803 /* SceneDelegate.swift */,
-				3623CC1626AD825500484803 /* ViewController.swift */,
-				3623CC1826AD825500484803 /* Main.storyboard */,
+				3623CC5026AE46A100484803 /* DI */,
+				36748FEE26AE4D0900C0DE3B /* EndPoint */,
+				3623CC4526AD8C2600484803 /* Services */,
+				36748FE926AE479F00C0DE3B /* Controllers */,
+				3623CC4C26AD8CF400484803 /* ViewModel */,
+				3623CC2726AD82A800484803 /* Coordinator */,
 				3623CC1B26AD825A00484803 /* Assets.xcassets */,
 				3623CC1D26AD825A00484803 /* LaunchScreen.storyboard */,
 				3623CC2026AD825A00484803 /* Info.plist */,
 			);
 			path = "MVVMC+DependencyContainer";
+			sourceTree = "<group>";
+		};
+		3623CC2726AD82A800484803 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3623CC2826AD82BF00484803 /* Coordinator.swift */,
+				3623CC2E26AD844B00484803 /* AppCoordinator.swift */,
+				3623CC3B26AD871700484803 /* LoginCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3623CC4526AD8C2600484803 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				36748FFC26AE501900C0DE3B /* BaseService.swift */,
+				3623CC4626AD8C3400484803 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3623CC4C26AD8CF400484803 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3623CC4D26AD8D0200484803 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3623CC5026AE46A100484803 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				3623CC5126AE46B000484803 /* Container.swift */,
+				3623CC4226AD89ED00484803 /* DependencyContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		36748FE926AE479F00C0DE3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3623CC3F26AD895300484803 /* LoginViewController.swift */,
+				36748FEB26AE47EA00C0DE3B /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36748FEE26AE4D0900C0DE3B /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				36748FEF26AE4D1900C0DE3B /* EndPoint.swift */,
+				36748FF826AE4E9700C0DE3B /* LoginEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		C80BBDA4774B75C1DE280549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1586EB964F1E2764C7C4B43 /* Pods-MVVMC+DependencyContainer.debug.xcconfig */,
+				AB13E115391DAB3D7E064663 /* Pods-MVVMC+DependencyContainer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3623CC2326AD825A00484803 /* Build configuration list for PBXNativeTarget "MVVMC+DependencyContainer" */;
 			buildPhases = (
+				1F475FE1E23AE61D7CBF3917 /* [CP] Check Pods Manifest.lock */,
 				3623CC0B26AD825500484803 /* Sources */,
 				3623CC0C26AD825500484803 /* Frameworks */,
 				3623CC0D26AD825500484803 /* Resources */,
+				CAF5041177D597929F56E4A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +227,77 @@
 			files = (
 				3623CC1F26AD825A00484803 /* LaunchScreen.storyboard in Resources */,
 				3623CC1C26AD825A00484803 /* Assets.xcassets in Resources */,
-				3623CC1A26AD825500484803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F475FE1E23AE61D7CBF3917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMC+DependencyContainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF5041177D597929F56E4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMC+DependencyContainer/Pods-MVVMC+DependencyContainer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMC+DependencyContainer/Pods-MVVMC+DependencyContainer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMC+DependencyContainer/Pods-MVVMC+DependencyContainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3623CC0B26AD825500484803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3623CC1726AD825500484803 /* ViewController.swift in Sources */,
+				36748FF026AE4D1900C0DE3B /* EndPoint.swift in Sources */,
+				3623CC2926AD82BF00484803 /* Coordinator.swift in Sources */,
+				3623CC3C26AD871700484803 /* LoginCoordinator.swift in Sources */,
+				3623CC2F26AD844B00484803 /* AppCoordinator.swift in Sources */,
+				3623CC4026AD895300484803 /* LoginViewController.swift in Sources */,
+				36748FEC26AE47EA00C0DE3B /* VerificationViewController.swift in Sources */,
+				3623CC4326AD89ED00484803 /* DependencyContainer.swift in Sources */,
+				36748FFD26AE501900C0DE3B /* BaseService.swift in Sources */,
 				3623CC1326AD825500484803 /* AppDelegate.swift in Sources */,
-				3623CC1526AD825500484803 /* SceneDelegate.swift in Sources */,
+				36748FF926AE4E9700C0DE3B /* LoginEndPoint.swift in Sources */,
+				3623CC4726AD8C3400484803 /* LoginService.swift in Sources */,
+				3623CC5226AE46B000484803 /* Container.swift in Sources */,
+				3623CC4E26AD8D0200484803 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3623CC1826AD825500484803 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3623CC1926AD825500484803 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3623CC1D26AD825A00484803 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +427,7 @@
 		};
 		3623CC2426AD825A00484803 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1586EB964F1E2764C7C4B43 /* Pods-MVVMC+DependencyContainer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +441,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.MVVMC-DependencyContainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3623CC2526AD825A00484803 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB13E115391DAB3D7E064663 /* Pods-MVVMC+DependencyContainer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.MVVMC-DependencyContainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
